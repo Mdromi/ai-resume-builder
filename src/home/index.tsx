@@ -1,11 +1,12 @@
-import React from "react";
-import { Button } from "@/components/ui/button";
+import Header from "@/components/custom/Header";
+import { UserButton } from "@clerk/clerk-react";
 
 function Home() {
   return (
     <>
+      <Header />
       <h1>AI Resume Builder</h1>
-      <Button>Click me</Button>
+      <UserButton />
     </>
   );
 }
